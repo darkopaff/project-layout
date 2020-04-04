@@ -2,6 +2,8 @@ body {
     margin: auto 0;
 }
 
+
+
 .zone {
     cursor:pointer;
     color:#FFF;
@@ -18,13 +20,25 @@ body {
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
+.box:hover {
+    -webkit-transform: rotate(-6deg);
+    -moz-transform: rotate(-6deg);
+    -o-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+}
+
 /* navigation bar */
 .nav {
     display: flex;
     margin: 0;
     list-style: none;
-    font-size: 0.7em;
+    font-size: 0.5em;
+}
 
+.sticky {
+    position: fixed;
+    width: 100%;
+    font-family: Arial;   
 }
 
 /* for cellphones */
